@@ -45,6 +45,9 @@ jspm_packages/
 # Snowpack dependency directory (https://snowpack.dev/)
 web_modules/
 
+# Typescript v1 declaration files
+typings/
+
 # TypeScript cache
 *.tsbuildinfo
 
@@ -128,3 +131,14 @@ dist
 .yarn/build-state.yml
 .yarn/install-state.gz
 .pnp.*
+
+# express/.gitignore (npm)
+package-lock.json
+*.log
+*.gz
+
+# Benchmarking
+benchmarks/graphs
+
+# ignore additional files using core.excludesFile
+# https://git-scm.com/docs/gitignore
